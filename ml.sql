@@ -49,7 +49,7 @@ INSERT INTO `accounts` (`Name`, `type`) VALUES
 CREATE TABLE `examinations` (
   `ExamID` tinyint(3) UNSIGNED NOT NULL,
   `Description` varchar(50) CHARACTER SET utf8 NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Άδειασμα δεδομένων του πίνακα `examinations`
@@ -76,7 +76,7 @@ CREATE TABLE `history` (
   `ID` smallint(5) UNSIGNED NOT NULL,
   `Date` date NOT NULL,
   `ExamID` tinyint(3) UNSIGNED NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Άδειασμα δεδομένων του πίνακα `history`
